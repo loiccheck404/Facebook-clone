@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WELCOME</title>
+    <!-- Link to Font Awesome for icons -->
+    <script
+      src="https://kit.fontawesome.com/5bb071d234.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="../css/feed.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- Top Navbar -->
+    <nav class="top-navbar">
+      <div class="logo-search">
+        <div class="logo">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+            alt="Logo"
+            class="logo-img"
+          />
+        </div>
+        
+        <input type="text" placeholder="Search Facebook" class="search-bar" />
+      </div>
+
+      <div class="hamburger-menu" onclick="toggleMenu()">☰</div>
+
+      <div class="top-navbar-links-center">
+        <a href="#"
+          ><i class="fa-solid fa-house fa-2xl" style="color: #3584e4"></i
+        ></a>
+        <a href="#"
+          ><i class="fa-solid fa-user-group fa-2xl" style="color: #3584e4"></i
+        ></a>
+        <a href="#"
+          ><i
+            class="fa-solid fa-users-between-lines fa-2xl"
+            style="color: #3584e4"
+          ></i
+        ></a>
+      </div>
+      <div class="top-navbar-links-right">
+        <a href="#"
+          ><i class="fa-solid fa-bars fa-xl" style="color: #3584e4"></i
+        ></a>
+        <a href="#"
+          ><i
+            class="fa-brands fa-facebook-messenger fa-xl"
+            style="color: #3584e4"
+          ></i
+        ></a>
+        <a href="#"
+          ><i class="fa-solid fa-bell fa-xl" style="color: #3584e4"></i
+        ></a>
+
+        <button class="logout-btn"><i class="fas fa-sign-out-alt"></i></button>
+      </div>
+
+      
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Left Sidebar Navbar -->
+      <aside class="left-navbar">
+        <ul>
+          <li>
+            <i class="fa-solid fa-user-group fa-xl" style="color: #3584e4"></i
+            ><span>Find friends</span>
+          </li>
+          <li>
+            <i class="fa-brands fa-facebook fa-xl" style="color: #3584e4"></i
+            ><span>Welcome</span>
+          </li>
+          <li>
+            <i class="fa-regular fa-clock fa-xl" style="color: #3584e4"></i
+            ><span>Memories</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-bookmark fa-xl" style="color: #9141ac"></i
+            ><span>Saved</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-users-line fa-xl" style="color: #3584e4"></i
+            ><span>Groups</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-tv fa-xl" style="color: #3584e4"></i
+            ><span>Video</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-square-rss fa-xl" style="color: #3584e4"></i
+            ><span>Feeds</span>
+          </li>
+          <li>
+            <i
+              class="fa-regular fa-calendar-plus fa-xl"
+              style="color: #3584e4"
+            ></i
+            ><span>Events</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-chart-simple fa-xl" style="color: #3584e4"></i
+            ><span>Ads Manager</span>
+          </li>
+          <li>
+            <i
+              class="fa-solid fa-heart-circle-plus fa-xl"
+              style="color: #e01b24"
+            ></i
+            ><span>Fundraiser</span>
+          </li>
+        </ul>
+      </aside>
+
+      <!-- Feed Section -->
+      <main class="feed-section">
+        <!-- Stories Section -->
+        <section class="stories">
+          <h3>Stories</h3>
+          <div class="story-list">
+            <div class="story">
+              <img
+                src="https://via.placeholder.com/60"
+                alt="Story Avatar"
+                class="story-avatar"
+              />
+            </div>
+            <div class="story">
+              <img
+                src="https://via.placeholder.com/60"
+                alt="Story Avatar"
+                class="story-avatar"
+              />
+            </div>
+            <div class="story">
+              <img
+                src="https://via.placeholder.com/60"
+                alt="Story Avatar"
+                class="story-avatar"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- Post Creation -->
+        <section class="create-post">
+          <textarea placeholder="What's on your mind?" rows="4"></textarea>
+          <button class="post-btn">Post</button>
+        </section>
+
+        <!-- Posts Section -->
+        <section class="posts">
+          <div class="post">
+            <div class="user-info">
+              <img
+                src="https://via.placeholder.com/40"
+                alt="User Avatar"
+                class="avatar"
+              />
+              <div class="user-details">
+                <strong>John Doe</strong>
+                <span>5 minutes ago</span>
+              </div>
+            </div>
+            <p class="post-text">Had an amazing day at the park today!</p>
+            <img
+              src="https://via.placeholder.com/500x300"
+              alt="Post Image"
+              class="post-image"
+            />
+            <div class="post-actions">
+              <button class="like-btn">
+                <i class="fas fa-thumbs-up"></i> Like
+              </button>
+              <button class="comment-btn">
+                <i class="fas fa-comment"></i> Comment
+              </button>
+              <button class="share-btn">
+                <i class="fas fa-share"></i> Share
+              </button>
+            </div>
+          </div>
+
+          <div class="post">
+            <div class="user-info">
+              <img
+                src="https://via.placeholder.com/40"
+                alt="User Avatar"
+                class="avatar"
+              />
+              <div class="user-details">
+                <strong>Jane Smith</strong>
+                <span>1 hour ago</span>
+              </div>
+            </div>
+            <p class="post-text">Just finished reading a great book!</p>
+            <div class="post-actions">
+              <button class="like-btn">
+                <i class="fas fa-thumbs-up"></i> Like
+              </button>
+              <button class="comment-btn">
+                <i class="fas fa-comment"></i> Comment
+              </button>
+              <button class="share-btn">
+                <i class="fas fa-share"></i> Share
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Right Sidebar Navbar -->
+      <aside class="right-navbar">
+        <div class="suggested-friends">
+          <h3>Suggested for You</h3>
+          <ul>
+            <li>
+              <img src="https://via.placeholder.com/40" alt="User Avatar" />J
+              Sancho
+            </li>
+            <li>
+              <img src="https://via.placeholder.com/40" alt="User Avatar" />C
+              Nkunku
+            </li>
+            <li>
+              <img src="https://via.placeholder.com/40" alt="User Avatar" />V
+              Nesteroy
+            </li>
+          </ul>
+        </div>
+
+        <div class="recent-activity">
+          <h3>Recent Activity</h3>
+          <ul>
+            <li>Liked a post</li>
+            <li>Commented on your photo</li>
+            <li>Join a new group</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+
+    <div id="overlay" onclick="closeMenu()"></div>
+  </div>
+
+    <div class="side-menu" id="side-menu">
+      <div class="menu-items">
+        <a href="#">Find friends</a>
+        <a href="#">Welcome</a>
+        <a href="#">Memories</a>
+        <a href="#">Saved</a>
+        <a href="#">Groups</a>
+        <a href="#">Video</a>
+        <a href="#">Feeds</a>
+        <a href="#">Events</a>
+        <a href="#">Ads Manager</a>
+        <a href="#">Fundraiser</a>
+        <a href="#">Log out</a>
+      </div>
+    </div>
+
+
+    <script src="../js/feed.js"></script>
+  </body>
+</html>

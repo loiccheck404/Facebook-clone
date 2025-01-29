@@ -1,0 +1,181 @@
+* {
+  font-family: "Poppins", sans-serif !important;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: #f0f2f5;
+}
+
+.container,
+.row,
+.col,
+.content,
+.content-in,
+input,
+button,
+form {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  color: blue;
+  margin-bottom: 10px;
+}
+
+.col .content {
+  margin-bottom: 40px;
+}
+
+.content-in-pa {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  flex-direction: row-reverse;
+  margin-top: 0%;
+}
+
+.container,
+.row,
+input,
+button {
+  display: flex;
+}
+
+.container {
+  min-height: 91vh;
+}
+
+.row {
+  max-width: 520px;
+  margin: 0px;
+  padding: 10px;
+}
+
+.col {
+  flex-wrap: wrap;
+}
+
+.content:nth-child(2) {
+  background: white;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1), 4px 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 22px;
+  border-radius: 12px;
+}
+
+.content .content-in {
+  margin-top: 10px;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  text-align: center;
+  align-items: center;
+}
+
+.content-in input,
+.content-in button {
+  padding: 10px;
+  font-size: 17px;
+  outline: none;
+  border-radius: 4px;
+  font-weight: 400;
+  margin-right: 10px;
+  margin-left: 0px;
+}
+
+.content-in input {
+  border: 1px solid #ccc;
+}
+
+.content-in input:focus {
+  opacity: 0.9;
+}
+
+.content-in button {
+  background: #166fe5;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  opacity: 0.85;
+  border: none;
+  font-weight: bolder;
+}
+
+.content-in button:hover {
+  opacity: 1;
+}
+
+#btn-c {
+  background: green;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  opacity: 0.85;
+  border: none;
+  margin-top: 20px;
+  margin-left: 120px;
+  width: 200px;
+}
+
+.content-in #btn-c {
+  align-items: center;
+}
+
+.foot {
+  font-size: smaller;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
+.content-in a {
+  text-decoration: none;
+  color: #166fe5;
+  font-size: 12px;
+  padding-top: 0%;
+  margin-top: 0%;
+}
+
+img {
+  width: 350px;
+  align-self: center;
+  justify-self: center;
+  margin-left: 80px;
+  margin-bottom: 0px;
+  padding-bottom: 0%;
+}
+
+.content-in-ma {
+  color: red;
+  font-size: 12px;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  img {
+    width: 350px;
+    align-self: center;
+    justify-self: center;
+    padding-right: 80px;
+  }
+
+  #btn-c {
+    background: green;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    opacity: 0.85;
+    border: none;
+    margin-top: 20px;
+    margin-right: 90px;
+    width: 200px;
+  }
+}
