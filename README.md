@@ -13,3 +13,4 @@
 # Concerning the left navbar was difficult to get the labels of the logos to be aligned properly since was using logos instead of images. Tried aligning it with grid but didnt get the required results.
 
 # Resource materials inlcude Google Chrome, VS code, HTML, CSS, JS, Youtube, Freecodecamp, Gemini.
+# Facebook-clone
