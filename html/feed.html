@@ -31,17 +31,12 @@
 
       <div class="top-navbar-links-center">
         <a href="#"
-          ><i class="fa-solid fa-house fa-2xl" style="color: #3584e4"></i
-        ></a>
+          ><i class="fa-solid fa-house fa-2xl" style="color: #045ffb;"></i></a>
         <a href="#"
-          ><i class="fa-solid fa-user-group fa-2xl" style="color: #3584e4"></i
-        ></a>
+          ><i class="fa-solid fa-user-group fa-2xl" style="color: #065ff9;"></i></a>
         <a href="#"
-          ><i
-            class="fa-solid fa-users-between-lines fa-2xl"
-            style="color: #3584e4"
-          ></i
-        ></a>
+          ><i class="fa-solid fa-people-group fa-2xl" style="color: #0867e2;"></i></a>
+        
       </div>
       <div class="top-navbar-links-right">
         <a href="#"
@@ -67,7 +62,7 @@
     <div class="main-content">
       <!-- Left Sidebar Navbar -->
       <aside class="left-navbar">
-        <ul>
+        <ul class="nav-list">
           <li>
             <i class="fa-solid fa-user-group fa-xl" style="color: #3584e4"></i
             ><span>Find friends</span>
@@ -119,33 +114,8 @@
 
       <!-- Feed Section -->
       <main class="feed-section">
-        <!-- Stories Section -->
-        <section class="stories">
-          <h3>Stories</h3>
-          <div class="story-list">
-            <div class="story">
-              <img
-                src="https://via.placeholder.com/60"
-                alt="Story Avatar"
-                class="story-avatar"
-              />
-            </div>
-            <div class="story">
-              <img
-                src="https://via.placeholder.com/60"
-                alt="Story Avatar"
-                class="story-avatar"
-              />
-            </div>
-            <div class="story">
-              <img
-                src="https://via.placeholder.com/60"
-                alt="Story Avatar"
-                class="story-avatar"
-              />
-            </div>
-          </div>
-        </section>
+       
+        
 
         <!-- Post Creation -->
         <section class="create-post">
@@ -167,12 +137,10 @@
                 <span>5 minutes ago</span>
               </div>
             </div>
-            <p class="post-text">Had an amazing day at the park today!</p>
-            <img
-              src="https://via.placeholder.com/500x300"
-              alt="Post Image"
-              class="post-image"
-            />
+           <div class="post-content">
+            Had an amazing day at the park today!
+            <div class="post-image">Post Image</div>
+           </div>
             <div class="post-actions">
               <button class="like-btn">
                 <i class="fas fa-thumbs-up"></i> Like
@@ -215,23 +183,21 @@
       </main>
 
       <!-- Right Sidebar Navbar -->
-      <aside class="right-navbar">
-        <div class="suggested-friends">
+      <aside class="right-sidebar">
+        <div class="suggestions">
           <h3>Suggested for You</h3>
-          <ul>
-            <li>
-              <img src="https://via.placeholder.com/40" alt="User Avatar" />J
-              Sancho
-            </li>
-            <li>
-              <img src="https://via.placeholder.com/40" alt="User Avatar" />C
-              Nkunku
-            </li>
-            <li>
-              <img src="https://via.placeholder.com/40" alt="User Avatar" />V
-              Nesteroy
-            </li>
-          </ul>
+          <div class="suggestion">
+            <div class="user-avatar">User</div>
+            <span class="user-name">J Sancho</span>
+          </div>
+          <div class="suggestion">
+            <div class="user-avatar">User</div>
+            <span class="user-name">C Nkunku</span>
+          </div>
+          <div class="suggestion">
+            <div class="user-avatar">User</div>
+            <span class="user-name">V Nesteroy</span>
+          </div>
         </div>
 
         <div class="recent-activity">
@@ -264,8 +230,6 @@
         <a href="#">Log out</a>
       </div>
     </div>
-
-
     <script src="../js/feed.js"></script>
   </body>
 </html>
